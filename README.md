@@ -1,0 +1,2 @@
+# unit_converter
+Performs unit conversion to SI from their “widely used” counterparts.  It returns the converted units and the multiplicative conversion factor from the input to their base SI units. The input to this API methods is a string with the unit name. The output contains two values: The reduced SI unit name [unit_name] for the input units and a multiplication factor [multiplication_factor] that you can multiply a value in the input units by to get a value in the output units.
